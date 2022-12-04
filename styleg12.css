@@ -1,0 +1,79 @@
+body{
+	background: url("images/fond_jaune.png");
+	font-family: Arial, sans-serif;
+color : #181818;
+width : 900px;
+margin : auto;
+}
+header{
+	background: url("images/separateur.png") repeat-x bottom ;
+display:flex;
+ justify-content :space-between ;
+ align-items: flex-end;
+}
+footer{
+	display:flex;
+	background: url('images/ico_top.png') no-repeat top 
+center,url('images/separateur.png') repeat-x top;
+padding: 25px ;
+}
+footer p{
+	font-size: 0.8em;
+}
+footer h2{
+	font-size: 1.1em;
+}
+#texte{
+	width:28%;
+}
+#photos{
+	width:40%;
+}
+footer img{
+border: 1px solid #181818; 
+margin-right: 2px;
+width:70px;
+height: 70px;
+}
+section{
+	display: flex;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+aside{
+	flex:1;
+	position : relative ;
+background-color : #706b64 ;
+box-shadow : 0px 2px 5px #1c1a19 ;
+border-radius: 5px;
+Padding : 10px ;
+color : white ;
+font-size : 0.9em ;
+}
+aside img{
+	margin-right: 5px;
+}
+article{
+	flex:3;
+}
+nav ul { 
+	list-style-type: none;
+	 display: flex; 
+}
+nav li {margin-right : 15px;}
+nav a{ font-size: 1.3em; color: #181818; padding:3px;
+	 text-decoration: none; }
+	 nav a:hover{color: #760001; border-bottom: 3px solid 
+		#760001;}
+.fleche{
+	position:absolute;
+	left:-12px;
+	top:100px;
+}
+.ico{
+	vertical-align : middle;
+	margin-right : 8px;
+}
+.class{
+	border: 1px solid #181818;
+}
